@@ -4,3 +4,6 @@ www.imrworldwide.com
 *.mnet-ad.net
 mnet-ad.net
 www.mnet-ad.net
+doubleclick.net
+www.doubleclick.net
+*.doubleclick.net
