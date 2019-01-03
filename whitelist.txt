@@ -2,3 +2,5 @@ clients1.google.com
 www.clients1.google.com
 ipinfo.io
 www.ipinfo.io
+stats.espncricinfo.com
+www.stats.espncricinfo.com
