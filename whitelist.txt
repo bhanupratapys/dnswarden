@@ -6,3 +6,5 @@ stats.espncricinfo.com
 www.stats.espncricinfo.com
 instagram.fsnc1-1.fna.fbcdn.net
 www.instagram.fsnc1-1.fna.fbcdn.net
+s0.wp.com
+www.s0.wp.com
