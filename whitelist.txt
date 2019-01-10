@@ -14,3 +14,5 @@ gyazo.com
 www.gyazo.com
 i.gyazo.com
 www.i.gyazo.com
+coralogix.com
+www.coralogix.com
