@@ -16,5 +16,5 @@ i.gyazo.com
 www.i.gyazo.com
 coralogix.com
 www.coralogix.com
-segment.com
-www.segment.com
+
+
