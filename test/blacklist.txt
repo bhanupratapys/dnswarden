@@ -6,3 +6,5 @@ fn-pz.com
 google-analytics.com
 scorecardresearch.com
 casalemedia.com
+crashlytics.com
+appsflyer.com
