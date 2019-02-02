@@ -1,2 +1,3 @@
 dnswarden.com
 amazonvideo.com
+ampproject.net
