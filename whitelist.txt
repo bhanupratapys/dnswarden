@@ -10,6 +10,8 @@ s0.wp.com
 www.s0.wp.com
 ipfs.io
 www.ipfs.io
+gleam.io
+www.gleam.io
 gyazo.com
 www.gyazo.com
 i.gyazo.com
