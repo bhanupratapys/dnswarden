@@ -12,6 +12,8 @@ ipfs.io
 www.ipfs.io
 gleam.io
 www.gleam.io
+js.gleam.io
+www.js.gleam.io
 gyazo.com
 www.gyazo.com
 i.gyazo.com
