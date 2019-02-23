@@ -18,6 +18,8 @@ gyazo.com
 www.gyazo.com
 i.gyazo.com
 www.i.gyazo.com
+i.imgci.com
+www.i.imgci.com
 metrics.torproject.org
 www.metrics.torproject.org
 coralogix.com
