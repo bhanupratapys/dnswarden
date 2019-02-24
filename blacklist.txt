@@ -4,3 +4,5 @@ imrworldwide.com
 mnet-ad.net
 doubleclick.net
 *.doubleclick.net
+amazon-adsystem.com
+*.amazon-adsystem.com
