@@ -6,3 +6,5 @@ doubleclick.net
 *.doubleclick.net
 amazon-adsystem.com
 *.amazon-adsystem.com
+adjust.com
+*.adjust.com
