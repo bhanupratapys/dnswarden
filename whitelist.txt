@@ -22,6 +22,8 @@ i.imgci.com
 www.i.imgci.com
 yastatic.net
 www.yastatic.net
+mc.yandex.ru
+www.mc.yandex.ru
 metrics.torproject.org
 www.metrics.torproject.org
 coralogix.com
