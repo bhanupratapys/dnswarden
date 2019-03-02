@@ -8,3 +8,5 @@ amazon-adsystem.com
 *.amazon-adsystem.com
 adjust.com
 *.adjust.com
+device-metrics-us.amazon.com
+www.device-metrics-us.amazon.com
