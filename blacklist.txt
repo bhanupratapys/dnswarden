@@ -10,3 +10,5 @@ adjust.com
 *.adjust.com
 device-metrics-us.amazon.com
 www.device-metrics-us.amazon.com
+stats.cdncdn.net
+www.stats.cdncdn.net
