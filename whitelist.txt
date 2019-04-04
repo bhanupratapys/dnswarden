@@ -28,6 +28,8 @@ metrics.torproject.org
 www.metrics.torproject.org
 coralogix.com
 www.coralogix.com
+www.accountkit.com
+accountkit.com
 www.google.co.ao
 www.google.co.bw
 www.google.co.ck
