@@ -18,6 +18,8 @@ gyazo.com
 www.gyazo.com
 i.gyazo.com
 www.i.gyazo.com
+labs-mqtt.xda-developers.com
+www.labs-mqtt.xda-developers.com
 i.imgci.com
 www.i.imgci.com
 yastatic.net
