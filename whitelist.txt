@@ -22,6 +22,8 @@ labs-mqtt.xda-developers.com
 www.labs-mqtt.xda-developers.com
 i.imgci.com
 www.i.imgci.com
+img1.hotstarext.com
+www.img1.hotstarext.com
 yastatic.net
 www.yastatic.net
 mc.yandex.ru
