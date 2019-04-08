@@ -40,6 +40,8 @@ api.simplisafe.com
 www.api.simplisafe.com
 www.accountkit.com
 accountkit.com
+app-01.engage.jio.com
+www.app-01.engage.jio.com
 assets.inshorts.com
 www.assets.inshorts.com
 www.google.co.ao
