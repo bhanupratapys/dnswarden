@@ -20,6 +20,8 @@ i.gyazo.com
 www.i.gyazo.com
 labs-mqtt.xda-developers.com
 www.labs-mqtt.xda-developers.com
+api.jio.com
+www.api.jio.com
 i.imgci.com
 www.i.imgci.com
 img1.hotstarext.com
