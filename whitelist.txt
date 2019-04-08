@@ -26,6 +26,8 @@ i.imgci.com
 www.i.imgci.com
 img1.hotstarext.com
 www.img1.hotstarext.com
+api.tastyworks.com
+www.api.tastyworks.com
 yastatic.net
 www.yastatic.net
 mc.yandex.ru
@@ -34,6 +36,8 @@ metrics.torproject.org
 www.metrics.torproject.org
 coralogix.com
 www.coralogix.com
+api.simplisafe.com
+www.api.simplisafe.com
 www.accountkit.com
 accountkit.com
 assets.inshorts.com
