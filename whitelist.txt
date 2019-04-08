@@ -44,6 +44,8 @@ app-01.engage.jio.com
 www.app-01.engage.jio.com
 assets.inshorts.com
 www.assets.inshorts.com
+auditrecording-pa.googleapis.com
+www.auditrecording-pa.googleapis.com
 www.google.co.ao
 www.google.co.bw
 www.google.co.ck
