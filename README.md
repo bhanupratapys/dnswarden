@@ -1,5 +1,5 @@
 # dnswarden
-###Just a normal privacy oriented dns service with a ability to block ads , trackers and also provides uncensored dns! Servers are hosted in **Germany**
+### Just a normal privacy oriented dns service with a ability to block ads , trackers and also provides uncensored dns! Servers are hosted in Germany
 
 
 
@@ -9,7 +9,7 @@
   * **Pure uncensored dns** (Blocks nothings , more power for the user!)
   * **Adblocking dns** (Blocks ads , trackers and all the random crap on the internet. If your favourite website gets blocked/broken , **[report here!](https://github.com/dnswarden/blocklist)**
     * Supports DNSCrypt , DNS over HTTPS , DNS over TLS and Normal DNS (plaintext/cleartext).
-    * DNSSEC and [QNAME minimization!](https://tools.ietf.org/html/rfc7816) are enabled by default.
+    * DNSSEC and [QNAME minimization](https://tools.ietf.org/html/rfc7816) are enabled by default.
     * Supports OpenNIC TLD's.
     * EDNS Client Subnet ([ECS](https://tools.ietf.org/html/rfc7871)) is disabled.
     * No query logging .
