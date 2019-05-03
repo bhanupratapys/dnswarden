@@ -22,7 +22,7 @@
   
     * ### Normal DNS
       *  IPv4: 116.203.70.156, 116.203.35.255 ( Only on PORT **53***)
-      *  IPv6: 2a01:4f8:1c1c:5e77::1 , 2a01:4f8:1c1c:75b4::1 ( Only on PORT **53**)
+      *  IPv6: 2a01:4f8:1c1c:5e77::1 , 2a01:4f8:1c1c:75b4::1 ( Only on PORT **53***)
   
   * ### DNS-over-TLS
      *  adblock-dot.dnswarden.com ( Supports both port **853** and **443**)
@@ -41,8 +41,8 @@
 * ## Uncensored DNS (DoT, DoH, DnsCryptV2, Normal DNS)
   
     * ### Normal DNS
-      *  IPv4: 116.203.70.156, 116.203.35.255 ( Only on PORT **5353**)
-      *  IPv6: 2a01:4f8:1c1c:5e77::1 , 2a01:4f8:1c1c:75b4::1 ( Only on PORT **5353**)
+      *  IPv4: 116.203.70.156, 116.203.35.255 ( Only on PORT **5353***)
+      *  IPv6: 2a01:4f8:1c1c:5e77::1 , 2a01:4f8:1c1c:75b4::1 ( Only on PORT **5353***)
   
   * ### DNS-over-TLS
      *  uncensored-dot.dnswarden.com ( Supports both port **853** and **443**)
