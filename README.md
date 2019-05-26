@@ -83,3 +83,8 @@
       * By using Android Pie , Go to Setting -> Wi-Fi -> Private DNS and enter the hostname. Supports only DoT.
       
      
+    * For other OS's
+       * [Knot-resolver](https://www.knot-resolver.cz).
+       * [Unbound](https://nlnetlabs.nl/projects/unbound/about).
+       * [Stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby).
+       * [m13253's DoH](https://github.com/m13253/dns-over-https).
