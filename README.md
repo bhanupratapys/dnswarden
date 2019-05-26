@@ -63,3 +63,23 @@
 * ## Privacy policy and T&C
   * Use at your own risk. I will not be held responsible for any downtime of the servers , only on a "best effort" basis.
   * No query logging . Completely disabled query logs related to the DNS traffic.
+
+
+
+
+* ### Health/Dns Query Rate Graph
+    * Will be live at [soon here](https://dnswarden.com/health).
+    
+    
+    
+    
+* ### Client software
+
+    * Android
+      * [Nebulo](https://git.frostnerd.com/PublicAndroidApps/smokescreen#installation), Supports both DoT and DoH.
+      * [PersonalDnsFilter](https://zenz-solutions.de/personaldnsfilter), Supports DoT , DoH and normal DNS.
+      * [Intra](https://play.google.com/store/apps/details?id=app.intra), Supports only DoH.
+      * [Dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy), Supports dnscrypt and DoH.
+      * By using Android Pie , Go to Setting -> Wi-Fi -> Private DNS and enter the hostname. Supports only DoT.
+      
+     
