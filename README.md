@@ -32,10 +32,11 @@
     
   * ### DnsCryptV2
       * IPv4
-        * sdns://AQMAAAAAAAAAEzExNi4yMDMuNzAuMTU2OjQ0NDMgL7bVxErUNqJptE9JaRqkjEpf_XAZN6C2ESmr9Jv7ScAjMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLWFkYmxvY2s
-        * sdns://AQMAAAAAAAAAEzExNi4yMDMuMzUuMjU1OjQ0NDMg8_tThCXwN1_HBlWh7qb9nqA_9FLLgsy6UqH31heo_dAjMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLWFkYmxvY2s
+        * sdns://
+        
         
        * IPv6
+         * sdns://
        
        
 * ## Uncensored DNS (DoT, DoH, DnsCryptV2, Normal DNS)
@@ -51,11 +52,13 @@
     *  https://doh.dnswarden.com/uncensored
     
   * ### DnsCryptV2
+
       * IPv4
-        * sdns://AQcAAAAAAAAAEzExNi4yMDMuNzAuMTU2Ojg0NDMgL7bVxErUNqJptE9JaRqkjEpf_XAZN6C2ESmr9Jv7ScAkMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLXVuY2Vuc29y
-        * sdns://AQcAAAAAAAAAEzExNi4yMDMuMzUuMjU1Ojg0NDMg8_tThCXwN1_HBlWh7qb9nqA_9FLLgsy6UqH31heo_dAkMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLXVuY2Vuc29y
+        * sdns://
+        
         
        * IPv6
+         * sdns://
        
        
        
