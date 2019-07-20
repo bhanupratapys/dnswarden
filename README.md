@@ -78,8 +78,8 @@
 
 
 * ### Health/Dns Query Rate Graph
-    * [Live at](https://health.dnswarden.com/?server=dnsdist.dnswarden.main). The graph what you see here is equal to "Total number of queries received by servers" minus "Cache hits" , because each backend has its own resolver with cache enabled. So it is kinda hard to know the "Total numbers of queries received by the servers" without disabling resolver cache on the backends.
-    
+    * [Live at](https://health.dnswarden.com/?server=dnsdist.dnswarden.main). The graph what you see here is equal to "Total number of queries received by servers" minus "Cache hits" , because each backend has its own resolver with cache enabled. So it is kinda hard to know the "Total numbers of queries received by the servers" without disabling the resolver cache on the backends.
+    * [Uptimerobot](https://health-check.dnswarden.com)
     
     
     
