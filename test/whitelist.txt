@@ -2,3 +2,4 @@ dnswarden.com
 amazonvideo.com
 ampproject.net
 ampproject.org
+client-channel.google.com
