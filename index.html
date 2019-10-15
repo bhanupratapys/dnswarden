@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DnsWarden</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <!-- TODO: Add users DNS detection badge -->
+    <h2 class="logo">DnsWarden</h2>
+    <div class="header-buttons">
+      <a class="header-url" href="#home">Home</a>
+      <a class="header-url" href="#servers">Servers</a>
+      <a class="header-url" href="#features">Features</a>
+      <a class="header-url" href="#faq">FAQ</a>
+    </div>
+  </header>
+  <div class="top-desc gray" id="home">
+    <div class="desc-box">
+      <h2 class="desc-name">DnsWarden</h2>
+      <p class="desc-content">Just a normal privacy oriented DNS service with an ability to block ads and
+        trackers.<br>Servers are hosted in Germany.</p>
+    </div>
+    <img src="./mouse.png" alt="Scroll down">
+  </div>
+  <div class="servers-container">
+    <h2>Servers</h2>
+    <div class="servers" id="servers">
+      <div class="server-info">
+        <p>Uncensored DNS</p>
+        <div>
+          <p class="server">
+            <span class="name">Normal DNS:</span><br>
+            <span class="ip">IPv4:</span> <span class="address" title="Click to copy" onclick="copyToClipboard(this)">116.203.70.156</span>,
+            <span class="address" title="Click to copy" onclick="copyToClipboard(this)">116.203.35.255</span> (Only on PORT 5353*) <br>
+            <span class="ip">IPv6:</span> <span class="address" title="Click to copy" onclick="copyToClipboard(this)">2a01:4f8:1c1c:5e77::1</span>, <span
+              class="address" title="Click to copy" onclick="copyToClipboard(this)">2a01:4f8:1c1c:75b4::1</span> (Only on PORT 5353*)
+          </p>
+
+          <p class="server">
+            <span class="name">DNS-over-TLS:</span>
+            <span class="address" title="Click to copy" onclick="copyToClipboard(this)">uncensored-dot.dnswarden.com</span> (Supports both port 853 and 443)
+          </p>
+
+          <p class="server">
+            <span class="name">DNS-over-HTTPS:</span>
+            <span class="address" title="Click to copy" onclick="copyToClipboard(this)">https://doh.dnswarden.com/uncensored</span>
+          </p>
+
+          <p class="server">
+            <span class="name">DnsCryptV2:</span><br>
+            <span class="ip">IPv4:</span> <br>
+            <span
+              class="address" title="Click to copy" onclick="copyToClipboard(this)">sdns://AQcAAAAAAAAAEzExNi4yMDMuNzAuMTU2Ojg0NDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAskMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLXVuY2Vuc29y</span><br>
+            <span
+              class="address" title="Click to copy" onclick="copyToClipboard(this)">sdns://AQcAAAAAAAAAEzExNi4yMDMuMzUuMjU1Ojg0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwkMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLXVuY2Vuc29y</span><br>
+
+            <span class="ip">IPv6:</span> <br>
+            <span
+              class="address" title="Click to copy" onclick="copyToClipboard(this)">sdns://AQcAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjc1YjQ6OjFdOjg0NDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAskMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLXVuY2Vuc29y</span><br>
+            <span
+              class="address" title="Click to copy" onclick="copyToClipboard(this)">sdns://AQcAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjVlNzc6OjFdOjg0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwkMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLXVuY2Vuc29y</span>
+          </p>
+        </div>
+      </div>
+      <div class="server-info">
+        <p>Adblocking DNS</p>
+        <div>
+          <p class="server">
+            <span class="name">Normal DNS:</span><br>
+            <span class="ip">IPv4:</span> <span class="address" title="Click to copy" onclick="copyToClipboard(this)">116.203.70.156</span>,
+            <span class="address" title="Click to copy" onclick="copyToClipboard(this)">116.203.35.255</span> (Only on PORT 53*) <br>
+            <span class="ip">IPv6:</span> <span class="address" title="Click to copy" onclick="copyToClipboard(this)">2a01:4f8:1c1c:5e77::1</span>, <span
+              class="address" title="Click to copy" onclick="copyToClipboard(this)">2a01:4f8:1c1c:75b4::1</span> (Only on PORT 53*)
+          </p>
+
+          <p class="server">
+            <span class="name">DNS-over-TLS:</span>
+            <span class="address" title="Click to copy" onclick="copyToClipboard(this)">adblock-dot.dnswarden.com</span> (Supports both port 853 and 443)
+          </p>
+
+          <p class="server">
+            <span class="name">DNS-over-HTTPS:</span>
+            <span class="address" title="Click to copy" onclick="copyToClipboard(this)">https://doh.dnswarden.com/adblock</span>
+          </p>
+
+          <p class="server">
+            <span class="name">DnsCryptV2:</span><br>
+            <span class="ip">IPv4:</span> <br>
+            <span
+              class="address" title="Click to copy" onclick="copyToClipboard(this)">sdns://AQMAAAAAAAAAEzExNi4yMDMuNzAuMTU2OjQ0NDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAsjMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLWFkYmxvY2s</span><br>
+            <span
+              class="address" title="Click to copy" onclick="copyToClipboard(this)">sdns://AQMAAAAAAAAAEzExNi4yMDMuMzUuMjU1OjQ0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwjMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLWFkYmxvY2s</span><br>
+
+            <span class="ip">IPv6:</span> <br>
+            <span
+              class="address" title="Click to copy" onclick="copyToClipboard(this)">sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjc1YjQ6OjFdOjQ0NDMgenKjVeH-LU7Opsyq1ljKZz14fHsngOK8OOeQ-cR2mAsjMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0xLWFkYmxvY2s</span><br>
+            <span
+              class="address" title="Click to copy" onclick="copyToClipboard(this)">sdns://AQMAAAAAAAAAHFsyYTAxOjRmODoxYzFjOjVlNzc6OjFdOjQ0NDMg-IlTTFFgMuUntnNV78COzbhJN9_OEOVWNgHhdg4BNXwjMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi0yLWFkYmxvY2s</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="features-container gray" id="features">
+    <h2>Features</h2>
+    <p class="text">DnsWarden provides two types of DNS:</p>
+    <div class="features">
+      <div class="feature-info">
+        Pure uncensored DNS (Blocks nothing, more power for the user!).
+      </div>
+      <div class="feature-info">Adblocking DNS (Blocks ads, trackers and all the random crap on the internet). <br>If your
+        favourite website gets blocked/broken, <a href="https://github.com/dnswarden/blocklist" target="_blank">report here</a>!</div>
+    </div>
+    <p class="features-desc">
+      Supports DNSCrypt, DNS over HTTPS, DNS over TLS and Normal DNS (plaintext/cleartext). <br>
+      DNSSEC and <a href="https://tools.ietf.org/html/rfc7816" target="_blank">QNAME minimization</a> are enabled by default. <br>
+      Supports OpenNIC TLD's. <br>
+      EDNS Client Subnet (<a href="https://tools.ietf.org/html/rfc7871" target="_blank">ECS</a>) is disabled. <br>
+      No query logging.
+    </p>
+  </div>
+  <div class="faq" id="faq">
+      <h2>FAQ</h2>
+      <p class="faq-q">What's your privacy policy and T&C?</p>
+      <p class="faq-a">
+        1. Use DnsWarden at your own risk. I'm not responsible for any downtime of the servers, only on a "best effort" basis. <br>
+        2. No query logging. Completely disabled query logs related to the DNS traffic.
+      </p>
+
+      <p class="faq-q">Where can I check Health/DNS Query Rate Graph?</p>
+      <p class="faq-a">
+        1. <a href="https://health.dnswarden.com/?server=dnsdist.dnswarden.main" target="_blank">Live at</a>. The graph what you see here is equal to "Total number of queries received by servers" <br> minus "Cache hits", because each backend has its own resolver with cache enabled. <br> So it is kinda hard to know the "Total numbers of queries received by the servers" <br> without disabling the resolver cache on the backends. <br>
+        2. <a href="https://health-check.dnswarden.com/" target="_blank">Uptimerobot</a>
+      </p>
+      
+      <p class="faq-q">How can I connect to your DNS?</p>
+      <p class="faq-a">
+        <span class="no-margin">Android</span><br>
+        <a href="https://git.frostnerd.com/PublicAndroidApps/smokescreen#installation" target="_blank">Nebulo</a>, Supports both DoT and DoH. <br>
+        <a href="https://zenz-solutions.de/personaldnsfilter/" target="_blank">PersonalDnsFilter</a>, Supports DoT, DoH and normal DNS. <br>
+        <a href="https://play.google.com/store/apps/details?id=app.intra" target="_blank">Intra</a>, Supports only DoH. <br>
+        <a href="https://github.com/DNSCrypt/dnscrypt-proxy" target="_blank">Dnscrypt-proxy</a>, Supports dnscrypt and DoH. <br>
+        By using Android Pie, go to Settings -> Wi-Fi -> Private DNS and enter the hostname. Supports only DoT.<br>
+
+        <span>Other OS's</span><br>
+        <a href="https://www.knot-resolver.cz/" target="_blank">Knot-resolver</a><br>
+        <a href="https://nlnetlabs.nl/projects/unbound/about" target="_blank">Unbound</a><br>
+        <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby" target="_blank">Stubby</a><br>
+        <a href="https://github.com/m13253/dns-over-https" target="_blank">m13253's DoH</a><br>
+        Or read a guide <a href="https://developers.google.com/speed/public-dns/docs/using" target="_blank">here</a><br>
+
+        <span>Mozilla Firefox - DNS over HTTPS</span><br>
+        network.trr.mode = 2<br>
+        network.trr.uri = https://doh.dnswarden.com/uncensored<br>
+        network.trr.bootstrapAddress = 116.203.70.156<br>
+        network.security.esni.enabled = true<br>  
+      </p>
+    </div>
+    <footer class="gray">
+      <a href="https://github.com/bhanupratapys/dnswarden" target="_blank">Github</a>
+      <p>Website made by <a href="https://github.com/Blaumaus" target="_blank">Blaumaus</a></p>
+    </footer>
+</body>
+
+</html>
