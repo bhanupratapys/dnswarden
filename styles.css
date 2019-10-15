@@ -1,0 +1,286 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #323232;
+}
+
+.logo {
+  flex-grow: 2;
+  color: #fff;
+  text-shadow: 1px 1px 1px gray;
+  font-size: 20;
+  text-align: center;
+}
+
+.header-buttons {
+  display: flex;
+  flex-grow: 16;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-url {
+  color: #fff;
+  font-weight: 600;
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 1.5;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.header-url:hover {
+  color: #d6d6d6;
+}
+
+.top-desc {
+  display: flex;
+  width: 100%;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.gray {
+  background-color: #f7f7f7;
+}
+
+.top-desc > img {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.desc-name {
+  text-align: center;
+  font-size: 40px;
+}
+
+.desc-content {
+  text-align: center;
+  font-size: 25px;
+}
+
+.servers {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 20px 0 20px 0;
+}
+
+.server-info, .feature-info {
+  /* box-shadow: 1px 1px 2px 2px #ccc;
+  -webkit-box-shadow: 1px 1px 2px 2px #ccc;
+	-moz-box-shadow: 1px 1px 2px 2px #ccc;
+  border-radius: 2px; */
+  width: 40%;
+  padding: 20px;
+}
+
+.servers-container, .faq, .features-container {
+  padding: 20px;
+}
+
+.servers-container > h2, .features-container > h2, .faq > h2 {
+  text-align: center;
+  font-size: 34px;
+}
+
+.faq > h2 {
+  margin-bottom: -30px;
+}
+
+.server-info > p {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ip {
+  font-weight: 600;
+}
+
+.address {
+  line-height: 0.7;
+  word-wrap: break-word;
+}
+
+.address:hover {
+  color: #464646;
+}
+
+.features-container {
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  width: 70%;
+  padding: 20px 0 20px 0;
+  margin-top: -40px;
+  margin-left: 18%;
+}
+
+.text, .faq-q {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.faq-q {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: -10px;
+}
+
+.features-desc, .faq-a {
+  font-size: 18px;
+}
+
+a {
+  color: #323232;
+}
+
+.faq-a {
+  font-size: 20px;
+  text-align: center;
+}
+
+.faq-a > span {
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+footer {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer > p {
+  margin: 0 1% 0 1%;
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 1400px) {
+  .faq-a {
+    font-size: 18px;
+  }
+  .faq-a > span {
+    margin-top: 14px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .servers {
+    display: block;
+  }
+
+  .address {
+    word-wrap: break-word;
+  }
+  
+  .server-info {
+    width: 100%;
+    padding: 0;
+  }
+
+  .servers-container > h2 {
+    margin-bottom: -30px;
+  }
+  
+  .feature-info {
+    font-size: 18px;
+    width: 60%;
+  }
+
+  .features {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .feature-info {
+    display: block;
+    width: 100%;
+    padding: 10px 0 0 0;
+  }
+
+  .top-desc {
+    width: calc(100% - 20px);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .features {
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+
+  .header-buttons {
+    justify-content: space-around;
+  }
+
+  .header-url {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-height: 860px) {
+  .top-desc {
+    height: 760px;
+  }
+}
+
+@media only screen and (max-height: 820px) {
+  .top-desc {
+    height: 700px;
+  }
+}
+
+@media only screen and (max-height: 760px) {
+  .top-desc {
+    height: 640px;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .top-desc {
+    height: 640px;
+  }
+}
