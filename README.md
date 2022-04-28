@@ -21,7 +21,7 @@
     * Supports DNSCrypt , DNS over HTTPS and DNS over TLS .
     * DNSSEC and [QNAME minimization](https://tools.ietf.org/html/rfc7816) are enabled by default.
     * Supports other [non-icann TLD's](https://github.com/bhanupratapys/dnswarden/issues/7#issuecomment-548266343).
-    * EDNS Client Subnet ([ECS](https://tools.ietf.org/html/rfc7871)) is disabled .
+    * Supports EDNS Client Subnet ([ECS](https://tools.ietf.org/html/rfc7871)), but forwards to other dns servers. 
     * No query logging .
     * If your favourite website gets blocked/broken , report **[ here](https://github.com/dnswarden/blocklist-staging)** or **[ here](https://t.me/dnswarden)** or **[ here](mailto:dns-support@dnswarden.com)**. No support will be given to custom filter dns when it is implemented for broken/blocked sites. Users will have to choose the blocklist appropriately. 
     
@@ -32,16 +32,13 @@
   
   
   * ### DNS-over-TLS
-     *  adblockdot.asia.dnswarden.com
-     *  adblockdot.eu.dnswarden.com
-     *  adblockdot.us.dnswarden.com
+     *  adblock.dns.dnswarden.com
+     *  adblock-ecs.dns.dnswarden.com
   
   * ### DNS-over-HTTPS: 
-    *  https://doh.asia.dnswarden.com/adblock
-    *  https://doh.eu.dnswarden.com/adblock
-    *  https://doh.us.dnswarden.com/adblock
+    *  https://dns.dnswarden.com/adblock
+    *  https://dns.dnswarden.com/adblock-ecs
 
-	DNS-over-HTTPS stamps for [Asian server](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DoH/adblock/Singapore.md), [European server](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DoH/adblock/Germany.md) and [North American server](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DoH/adblock/USA.md). 
     
   * ### DnsCrypt
       * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/adblock/Singapore.md) for Asian server which is hosted in Singapore. 
@@ -61,16 +58,13 @@
   
   
   * ### DNS-over-TLS
-     *  uncensoreddot.asia.dnswarden.com
-     *  uncensoreddot.eu.dnswarden.com
-     *  uncensoreddot.us.dnswarden.com
+     *  uncensored.dns.dnswarden.com
+     *  uncensored-ecs.dns.dnswarden.com
   
   * ### DNS-over-HTTPS: 
-    *  https://doh.asia.dnswarden.com/uncensored
-    *  https://doh.eu.dnswarden.com/uncensored
-    *  https://doh.us.dnswarden.com/uncensored
-
-	DNS-over-HTTPS stamps for [Asian server](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DoH/uncensored/Singapore.md), [European server](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DoH/uncensored/Germany.md) and [North American server](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DoH/uncensored/USA.md). 
+    *  https://dns.dnswarden.com/uncensored
+    *  https://dns.dnswarden.com/uncensored-ecs
+ 
     
     
   * ### DnsCrypt
@@ -89,16 +83,13 @@
   
   
   * ### DNS-over-TLS
-     *  adultfilterdot.asia.dnswarden.com
-     *  adultfilterdot.eu.dnswarden.com
-     *  adultfilterdot.us.dnswarden.com
+     *  adultfilter.dns.dnswarden.com
+     *  adultfilter-ecs.dns.dnswarden.com
   
   * ### DNS-over-HTTPS: 
-    *  https://doh.asia.dnswarden.com/adultfilter
-    *  https://doh.eu.dnswarden.com/adultfilter
-    *  https://doh.us.dnswarden.com/adultfilter
+    *  https://dns.dnswarden.com/adultfilter
+    *  https://dns.dnswarden.com/adultfilter-ecs
 
-	DNS-over-HTTPS stamps for [Asian server](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DoH/adultfilter/Singapore.md), [European server](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DoH/adultfilter/Germany.md) and [North American server](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DoH/adultfilter/USA.md). 
     
     
   * ### DnsCrypt
@@ -125,6 +116,7 @@
 
     * Android
       * [Dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy), Supports dnscrypt and DoH. Also supports other os's.
+      * [InviZible Pro](https://f-droid.org/en/packages/pan.alexander.tordnscrypt.stable), Supports dnscrypt and DoH.
       * [Nebulo](https://git.frostnerd.com/PublicAndroidApps/smokescreen#installation), Supports both DoT and DoH.
       * [PersonalDnsFilter](https://zenz-solutions.de/personaldnsfilter), Supports DoT , DoH and normal DNS.
       * [Intra](https://play.google.com/store/apps/details?id=app.intra), Supports only DoH.
