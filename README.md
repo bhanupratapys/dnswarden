@@ -21,7 +21,6 @@
     * Supports DNSCrypt , DNS over HTTPS and DNS over TLS .
     * DNSSEC and [QNAME minimization](https://tools.ietf.org/html/rfc7816) are enabled by default.
     * Supports other [non-icann TLD's](https://github.com/bhanupratapys/dnswarden/issues/7#issuecomment-548266343).
-    * Supports EDNS Client Subnet ([ECS](https://tools.ietf.org/html/rfc7871)), but forwards to other dns servers. 
     * No query logging .
     * If your favourite website gets blocked/broken , report **[ here](https://github.com/dnswarden/blocklist-staging)** or **[ here](https://t.me/dnswarden)** or **[ here](mailto:dns-support@dnswarden.com)**. No support will be given to custom filter dns when it is implemented for broken/blocked sites. Users will have to choose the blocklist appropriately. 
     
@@ -33,11 +32,9 @@
   
   * ### DNS-over-TLS
      *  adblock.dns.dnswarden.com
-     *  adblock-ecs.dns.dnswarden.com
   
   * ### DNS-over-HTTPS: 
     *  https://dns.dnswarden.com/adblock
-    *  https://dns.dnswarden.com/adblock-ecs
 
     
   * ### DnsCrypt
@@ -59,11 +56,9 @@
   
   * ### DNS-over-TLS
      *  uncensored.dns.dnswarden.com
-     *  uncensored-ecs.dns.dnswarden.com
   
   * ### DNS-over-HTTPS: 
     *  https://dns.dnswarden.com/uncensored
-    *  https://dns.dnswarden.com/uncensored-ecs
  
     
     
@@ -84,11 +79,9 @@
   
   * ### DNS-over-TLS
      *  adultfilter.dns.dnswarden.com
-     *  adultfilter-ecs.dns.dnswarden.com
   
   * ### DNS-over-HTTPS: 
     *  https://dns.dnswarden.com/adultfilter
-    *  https://dns.dnswarden.com/adultfilter-ecs
 
     
     
