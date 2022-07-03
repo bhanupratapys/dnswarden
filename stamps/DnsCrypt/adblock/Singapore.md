@@ -1,12 +1,7 @@
-## dnswarden-asia-adblock-dcv4
+## dnswarden-adblock-sg1-dc
 
 Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
 
-sdns://AQMAAAAAAAAAFDIwNy4xNDguMTIwLjI0NDoyMjIyIKaotzxLPX3tRvpH4lDhbTo1cHCL4X-ZhW_Ji6jU8LwyITIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tYWRibG9jaw
+sdns://AQMAAAAAAAAAEzE1LjIzNS4xNDEuMjA4OjE0NDMgkH4uLCjql6JM6bKO-vmgOnW0kuoLEO3VN8J5-vdF7uUhMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi1hZGJsb2Nr
 
 
-## dnswarden-asia-adblock-dcv6
-
-Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
-
-sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo0ZGUyOjU0MDA6M2ZmOmZlYTk6ZDQxOF06MjIyMiCmqLc8Sz197Ub6R-JQ4W06NXBwi-F_mYVvyYuo1PC8MiEyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLWFkYmxvY2s
