@@ -1,12 +1,6 @@
-## dnswarden-asia-adultfilter-dcv6
+## dnswarden-adult-sg1-dc
 
 Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com). Blocks adult content and enforces safe search on major search engines.
 
-sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo0ZGUyOjU0MDA6M2ZmOmZlYTk6ZDQxOF06NTU1NSCmqLc8Sz197Ub6R-JQ4W06NXBwi-F_mYVvyYuo1PC8MiUyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLWFkdWx0ZmlsdGVy
+sdns://AQMAAAAAAAAAEzE1LjIzNS4xNDEuMjA4OjIwNTMgkH4uLCjql6JM6bKO-vmgOnW0kuoLEO3VN8J5-vdF7uUfMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi1hZHVsdA
 
-
-## dnswarden-asia-adultfilter-dcv4
-
-Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com). Blocks adult content and enforces safe search on major search engines.
-
-sdns://AQMAAAAAAAAAFDIwNy4xNDguMTIwLjI0NDo1NTU1IKaotzxLPX3tRvpH4lDhbTo1cHCL4X-ZhW_Ji6jU8LwyJTIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tYWR1bHRmaWx0ZXI
