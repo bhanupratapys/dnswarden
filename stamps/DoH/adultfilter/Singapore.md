@@ -1,4 +1,4 @@
-## dnswarden-asia-adultfilter-dohv4
+## dnswarden-adult-sg1-doh
 
 Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).  Blocks adult content and enforces safe search on major search engines.
 
