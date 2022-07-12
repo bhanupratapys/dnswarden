@@ -1,6 +1,6 @@
 # Notice
 
-## Project is live for public usage.
+## Project is live for public usage. [Custom filter](https://dnswarden.com/customfilter.html) dns is live, you try it out [here](https://dnswarden.com/customfilter.html).
 
 
 
@@ -22,7 +22,7 @@
     * DNSSEC and [QNAME minimization](https://tools.ietf.org/html/rfc7816) are enabled by default.
     * Supports other [non-icann TLD's](https://github.com/bhanupratapys/dnswarden/issues/7#issuecomment-548266343).
     * No query logging .
-    * If your favourite website gets blocked/broken , report **[ here](https://github.com/dnswarden/blocklist-staging)** or **[ here](https://t.me/dnswarden)** or **[ here](mailto:dns-support@dnswarden.com)**. No support will be given to custom filter dns when it is implemented for broken/blocked sites. Users will have to choose the blocklist appropriately. 
+    * If your favourite website gets blocked/broken , report **[ here](https://github.com/dnswarden/blocklist-staging)** or **[ here](https://t.me/dnswarden)** or **[ here](mailto:dns-support@dnswarden.com)**. No support will be given to custom filter dns for broken/blocked sites. Users will have to choose the blocklist appropriately. 
     
     
  # Server information
