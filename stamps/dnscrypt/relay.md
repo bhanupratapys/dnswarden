@@ -1,4 +1,4 @@
-## dnswarden-relay-swiss
+## anon-dnswarden-swiss
 
 Relay hosted in swizterland. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
 
