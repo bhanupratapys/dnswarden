@@ -1,13 +1,13 @@
 ## adblock
 
-`sdns://AgMAAAAAAAAAAAARZG5zLmRuc3dhcmRlbi5jb20IL2FkYmxvY2s`
+`sdns://AgMAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhFkbnMuZG5zd2FyZGVuLmNvbQgvYWRibG9jaw`
 
 
 ## adult filter
 
-`sdns://AgMAAAAAAAAAAAARZG5zLmRuc3dhcmRlbi5jb20ML2FkdWx0ZmlsdGVy`
+`sdns://AgMAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhFkbnMuZG5zd2FyZGVuLmNvbQwvYWR1bHRmaWx0ZXI`
 
 
 ## uncensored / unfiltered
 
-`sdns://AgcAAAAAAAAAAAARZG5zLmRuc3dhcmRlbi5jb20LL3VuY2Vuc29yZWQ`
+`sdns://AgcAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhFkbnMuZG5zd2FyZGVuLmNvbQsvdW5jZW5zb3JlZA`
