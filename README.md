@@ -35,23 +35,10 @@
   
   * ### DNS-over-HTTPS: 
     *  https://dns.dnswarden.com/adblock
-    *  [Stamps](https://github.com/bhanupratapys/dnswarden/tree/master/stamps/DoH/adblock).
+    *  [Stamps](https://github.com/bhanupratapys/dnswarden/tree/master/stamps/doh#adblock).
 
     
-  * ### DnsCrypt
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/adblock/France.md) for server at France.
-      
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/adblock/India.md) for server at India.
-      
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/adblock/Singapore.md) for server at Singapore.
-      
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/adblock/USA.md) for server at USA.
-         
-         
-   
-
-
-   
+  
 
        
 * ## Uncensored DNS (DoT, DoH, DnsCryptV2)
@@ -62,19 +49,18 @@
   
   * ### DNS-over-HTTPS: 
     *  https://dns.dnswarden.com/uncensored
-    *  [Stamps](https://github.com/bhanupratapys/dnswarden/tree/master/stamps/DoH/uncensored).
+    *  [Stamps](https://github.com/bhanupratapys/dnswarden/tree/master/stamps/doh#uncensored--unfiltered).
  
     
     
   * ### DnsCrypt
 
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/uncensored/France.md) for server at France.
+      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/dnscrypt/europe-switzerland.md#dnswarden-uncensor-dc-swiss) for server at Switzerland.
       
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/uncensored/India.md) for server at India.
+      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/dnscrypt/experimental_anycast.md#dnswarden-uncensor-dc) for anycast server.
       
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/uncensored/Singapore.md) for server at Singapore.
+      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/dnscrypt/relay.md#anon-dnswarden-swiss) for realy at Switzerland.
       
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/uncensored/USA.md) for server at USA.
 
           
 
@@ -88,22 +74,10 @@
   
   * ### DNS-over-HTTPS: 
     *  https://dns.dnswarden.com/adultfilter
-    *  [Stamps](https://github.com/bhanupratapys/dnswarden/tree/master/stamps/DoH/adultfilter).
+    *  [Stamps](https://github.com/bhanupratapys/dnswarden/tree/master/stamps/doh#adult-filter).
 
     
     
-  * ### DnsCrypt
-  
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/adultfilter/France.md) for server at France.
-      
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/adultfilter/India.md) for server at India.
-      
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/adultfilter/Singapore.md) for server at Singapore.
-      
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/DnsCrypt/adultfilter/USA.md) for server at USA.
-
-
-
        
 * ## Privacy policy and T&C
   * Use at your own risk. I will not be held responsible for any downtime of the servers , only on a "best effort" basis.
