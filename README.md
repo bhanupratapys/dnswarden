@@ -92,10 +92,11 @@
 
     * Android
       * [Dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy), Supports dnscrypt and DoH. Also supports other os's.
-      * [InviZible Pro](https://f-droid.org/en/packages/pan.alexander.tordnscrypt.stable), Supports dnscrypt and DoH.
+      * [InviZible Pro](https://f-droid.org/en/packages/pan.alexander.tordnscrypt.stable), Supports dnscrypt, DoH and many more goodies under the hood.
       * [Nebulo](https://git.frostnerd.com/PublicAndroidApps/smokescreen#installation), Supports both DoT and DoH.
       * [PersonalDnsFilter](https://zenz-solutions.de/personaldnsfilter), Supports DoT , DoH and normal DNS.
       * [Intra](https://play.google.com/store/apps/details?id=app.intra), Supports only DoH.
+      * [Rethink-app](https://github.com/celzero/rethink-app), Supports dnscrypt, DoH and many more goodies under the hood.
       * By using Android Pie , Go to Setting -> Wi-Fi -> Private DNS and enter the hostname. Supports only DoT.
       
      
