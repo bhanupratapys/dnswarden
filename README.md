@@ -1,28 +1,28 @@
 # Notice
 
-## Project is live for public usage. [Custom filter](https://dnswarden.com/customfilter.html) dns is live, you try it out [here](https://dnswarden.com/customfilter.html).
+## Project is live for public usage. [Custom filter](https://dnswarden.com/customfilter.html) DNS is live, you try it out [here](https://dnswarden.com/customfilter.html).
 
 
 
 
-#### Just a normal privacy oriented dns service with a ability to block ads , trackers and also provides uncensored dns! 
+#### Just a normal privacy oriented DNS service with a ability to block ads, trackers and also provides uncensored DNS! 
 
 
 
 ## Features
 
-* Provides multiple types of dns 
-  * **Pure uncensored dns** (Blocks nothings , more power for the user!)
-  * **Adblocking dns** (Blocks ads , trackers and all the random crap on the internet.)
-  * **Adult Filter dns** ( Blocks adult content, enforces force safe search for search engines and youtube. Also blocks ads,trackers and other malicious stuff)
-  * **Custom filter dns** ( Users can choose multiple blocklists from the predefined set depending on their usage. Only supports DNS-over-TLS and DNS-over-HTTPS)
+* Provides multiple types of DNS 
+  * **Pure uncensored DNS** (Blocks nothings , more power for the user!)
+  * **Adblocking DNS** (Blocks ads , trackers and all the random crap on the internet.)
+  * **Adult Filter DNS** (Blocks adult content, enforces force safe search for search engines and youtube. Also blocks ads, trackers and other malicious stuff)
+  * **Custom filter DNS** (Users can choose multiple blocklists from the predefined set depending on their usage. Only supports DNS-over-TLS and DNS-over-HTTPS)
   
 
     * Supports DNSCrypt , DNS over HTTPS and DNS over TLS .
     * DNSSEC and [QNAME minimization](https://tools.ietf.org/html/rfc7816) are enabled by default.
     * Supports other [non-icann TLD's](https://github.com/bhanupratapys/dnswarden/issues/7#issuecomment-548266343).
     * No query logging .
-    * If your favourite website gets blocked/broken , report **[ here](https://github.com/dnswarden/blocklist-staging)** or **[ here](https://t.me/dnswarden)** or **[ here](mailto:dns-support@dnswarden.com)**. No support will be given to custom filter dns for broken/blocked sites. Users will have to choose the blocklist appropriately. 
+    * If your favourite website gets blocked/broken, report **[ here](https://github.com/dnswarden/blocklist-staging)** or **[ here](https://t.me/dnswarden)** or **[ here](mailto:dns-support@dnswarden.com)**. No support will be given to custom filter DNS for broken/blocked sites. Users will have to choose the blocklist appropriately. 
     
     
  # Server information
@@ -80,9 +80,9 @@
     
        
 * ## Privacy policy and T&C
-  * Use at your own risk. I will not be held responsible for any downtime of the servers , only on a "best effort" basis.
-  * No query logging . Completely disabled query logs related to the DNS traffic.
-  * Dns traffic will be forwarded datacenter's dns servers if the resolver fails. 
+  * Use at your own risk. I will not be held responsible for any downtime of the servers, only on a "best effort" basis.
+  * No query logging. Completely disabled query logs related to the DNS traffic.
+  * DNS traffic will be forwarded to the datacenter's DNS servers if the resolver fails. 
 
 
 
@@ -91,12 +91,12 @@
 * ### Client software
 
     * Android
-      * [Dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy), Supports dnscrypt and DoH. Also supports other os's.
-      * [InviZible Pro](https://f-droid.org/en/packages/pan.alexander.tordnscrypt.stable), Supports dnscrypt, DoH and many more goodies under the hood.
+      * [Dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy), Supports DnsCrypt and DoH. Also supports other OS's.
+      * [InviZible Pro](https://f-droid.org/en/packages/pan.alexander.tordnscrypt.stable), Supports DnsCrypt, DoH and many more goodies under the hood.
       * [Nebulo](https://git.frostnerd.com/PublicAndroidApps/smokescreen#installation), Supports both DoT and DoH.
-      * [PersonalDnsFilter](https://zenz-solutions.de/personaldnsfilter), Supports DoT , DoH and normal DNS.
+      * [PersonalDnsFilter](https://zenz-solutions.de/personaldnsfilter), Supports DoT, DoH and normal DNS.
       * [Intra](https://play.google.com/store/apps/details?id=app.intra), Supports only DoH.
-      * [Rethink-app](https://github.com/celzero/rethink-app), Supports dnscrypt, DoH and many more goodies under the hood.
+      * [Rethink-app](https://github.com/celzero/rethink-app), Supports DnsCrypt, DoH and many more goodies under the hood.
       * By using Android Pie , Go to Setting -> Wi-Fi -> Private DNS and enter the hostname. Supports only DoT.
       
      
