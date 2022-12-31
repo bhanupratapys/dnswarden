@@ -14,7 +14,7 @@
 * Provides multiple types of DNS 
   * **Pure uncensored DNS** (Blocks nothings , more power for the user!)
   * **Adblocking DNS** (Blocks ads , trackers and all the random crap on the internet.)
-  * **Adult Filter DNS** (Blocks adult content, enforces force safe search for search engines and youtube. Also blocks ads, trackers and other malicious stuff)
+  * **Adult Filter DNS** (Blocks adult content, enforces force safe search for search engines and YouTube. Also blocks ads, trackers and other malicious stuff)
   * **Custom filter DNS** (Users can choose multiple blocklists from the predefined set depending on their usage. Only supports DNS-over-TLS and DNS-over-HTTPS)
   
 
