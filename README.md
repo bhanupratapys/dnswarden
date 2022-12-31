@@ -5,7 +5,7 @@
 
 
 
-#### Just a normal privacy oriented DNS service with a ability to block ads, trackers and also provides uncensored DNS! 
+#### Just a normal privacy oriented DNS service with the ability to block ads, trackers, malware, and phishing. We provide an uncensored DNS aswell! 
 
 
 
