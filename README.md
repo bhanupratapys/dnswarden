@@ -1,6 +1,6 @@
 # Notice
 
-## Project is live for public usage. [Custom filter](https://dnswarden.com/customfilter.html) DNS is live, you try it out [here](https://dnswarden.com/customfilter.html).
+## Project is live for public usage. [Custom filter](https://dnswarden.com/customfilter.html) DNS is live, try it out [here](https://dnswarden.com/customfilter.html).
 
 
 
