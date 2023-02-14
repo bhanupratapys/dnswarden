@@ -12,7 +12,7 @@
   * **Pure uncensored DNS** (Blocks nothings , more power for the user!)
   * **Adblocking DNS** (Blocks ads , trackers and all the random crap on the internet.)
   * **Adult Filter DNS** (Blocks adult content, enforces force safe search for search engines and YouTube. Also blocks ads, trackers and other malicious stuff)
-  * **Custom filter DNS** (Users can choose multiple blocklists from the predefined set depending on their usage. Only supports DNS-over-TLS and DNS-over-HTTPS)
+  * **Custom filter DNS** (Users can choose multiple blocklists from the predefined set depending on their usage. Supports DNS-over-QUIC, DNS-over-TLS and DNS-over-HTTPS)
   
     * Supports DNS over QUIC, DNS over HTTPS, DNS over TLS and DNSCrypt.
     * DNSSEC and [QNAME minimization](https://tools.ietf.org/html/rfc7816) are enabled by default.
@@ -37,7 +37,7 @@
   
 
        
-* ## Uncensored DNS (DOQ, DoT, DoH, DnsCryptV2)
+* ## Uncensored DNS (DoT, DoH, DOQ, DnsCryptV2)
   
   
   * ### DNS-over-TLS / DNS-over-QUIC
@@ -101,3 +101,4 @@
        * [Unbound](https://nlnetlabs.nl/projects/unbound/about).
        * [Stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby).
        * [m13253's DoH](https://github.com/m13253/dns-over-https).
+       * [Adguard's dnsproxy](https://github.com/AdguardTeam/dnsproxy). Supports DoQ, DoT, DoH and DNSCrypt.
