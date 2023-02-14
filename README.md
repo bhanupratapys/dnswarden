@@ -52,9 +52,7 @@
   * ### DnsCrypt
 
       * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/dnscrypt/europe-switzerland.md#dnswarden-uncensor-dc-swiss) for server at Switzerland.
-      
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/dnscrypt/experimental_anycast.md#dnswarden-uncensor-dc) for anycast server.
-      
+            
       * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/dnscrypt/relay.md#anon-dnswarden-swiss) for realy at Switzerland.
       
 
