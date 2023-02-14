@@ -1,13 +1,10 @@
 # Notice
 
-## Project is live for public usage. [Custom filter](https://dnswarden.com/customfilter.html) DNS is live, try it out [here](https://dnswarden.com/customfilter.html).
+## DNSWarden now supports DNS-over-QUIC including the custom filter DNS
 
+## [Custom filter](https://dnswarden.com/customfilter.html) DNS is live, try it out [here](https://dnswarden.com/customfilter.html).
 
-
-
-#### Just a normal privacy oriented DNS service with the ability to block ads, trackers, malware, and phishing. We provide an uncensored DNS aswell! 
-
-
+### Just a normal privacy oriented DNS service with the ability to block ads, trackers, malware, and phishing. We provide an uncensored DNS aswell
 
 ## Features
 
@@ -17,20 +14,19 @@
   * **Adult Filter DNS** (Blocks adult content, enforces force safe search for search engines and YouTube. Also blocks ads, trackers and other malicious stuff)
   * **Custom filter DNS** (Users can choose multiple blocklists from the predefined set depending on their usage. Only supports DNS-over-TLS and DNS-over-HTTPS)
   
-
-    * Supports DNSCrypt , DNS over HTTPS and DNS over TLS .
+    * Supports DNS over QUIC, DNS over HTTPS, DNS over TLS and DNSCrypt.
     * DNSSEC and [QNAME minimization](https://tools.ietf.org/html/rfc7816) are enabled by default.
     * Supports other [non-icann TLD's](https://github.com/bhanupratapys/dnswarden/issues/7#issuecomment-548266343).
     * No query logging .
-    * If your favourite website gets blocked/broken, report **[ here](https://github.com/dnswarden/blocklist-staging)** or **[ here](https://t.me/dnswarden)** or **[ here](mailto:dns-support@dnswarden.com)**. No support will be given to custom filter DNS for broken/blocked sites. Users will have to choose the blocklist appropriately. 
-    
+    * If your favourite website gets blocked/broken, report **[here](https://github.com/dnswarden/blocklist-staging)** or **[here](https://t.me/dnswarden)** or **[here](mailto:dns-support@dnswarden.com)**. No support will be given to custom filter DNS for broken/blocked sites. Users will have to choose the blocklist appropriately. 
+
     
  # Server information
  
-* ## Adblocking DNS (DoT, DoH, DnsCryptV2)
+* ## Adblocking DNS (DoT, DoH, DoQ)
   
   
-  * ### DNS-over-TLS
+  * ### DNS-over-TLS / DNS-over-QUIC
      *  adblock.dns.dnswarden.com
   
   * ### DNS-over-HTTPS: 
@@ -41,10 +37,10 @@
   
 
        
-* ## Uncensored DNS (DoT, DoH, DnsCryptV2)
+* ## Uncensored DNS (DOQ, DoT, DoH, DnsCryptV2)
   
   
-  * ### DNS-over-TLS
+  * ### DNS-over-TLS / DNS-over-QUIC
      *  uncensored.dns.dnswarden.com
   
   * ### DNS-over-HTTPS: 
@@ -66,10 +62,10 @@
 
        
        
-* ## Adult Filter DNS (DoT, DoH, DnsCryptV2)
+* ## Adult Filter DNS (DoT, DoH, DoQ)
   
   
-  * ### DNS-over-TLS
+  * ### DNS-over-TLS / DNS-over-QUIC
      *  adultfilter.dns.dnswarden.com
   
   * ### DNS-over-HTTPS: 
@@ -105,7 +101,3 @@
        * [Unbound](https://nlnetlabs.nl/projects/unbound/about).
        * [Stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby).
        * [m13253's DoH](https://github.com/m13253/dns-over-https).
-
-
-
-
