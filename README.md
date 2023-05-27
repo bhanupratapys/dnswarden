@@ -4,7 +4,7 @@
 
 ## [Custom filter](https://dnswarden.com/customfilter.html) DNS is live, try it out [here](https://dnswarden.com/customfilter.html).
 
-### Just a normal privacy oriented DNS service with the ability to block ads, trackers, malware, and phishing. We provide an uncensored DNS aswell
+### Just a normal privacy oriented DNS service with the ability to block ads, trackers, malware, and phishing. We provide an uncensored DNS as well
 
 ## Features
 
@@ -53,7 +53,7 @@
 
       * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/dnscrypt/europe-switzerland.md#dnswarden-uncensor-dc-swiss) for server at Switzerland.
             
-      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/dnscrypt/relay.md#anon-dnswarden-swiss) for realy at Switzerland.
+      * [Stamps](https://github.com/bhanupratapys/dnswarden/blob/master/stamps/dnscrypt/relay.md#anon-dnswarden-swiss) for relay at Switzerland.
       
 
           
